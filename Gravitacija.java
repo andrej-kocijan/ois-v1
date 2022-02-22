@@ -2,8 +2,7 @@ import java.util.*;
 
 public class Gravitacija {
     public static void main(String[] args) {
-        //System.out.println("OIS je zakon!");
-
+<<<<<<< HEAD
         Scanner sc = new Scanner(System.in);
 
         double C = 6.674*Math.pow(10, -11);
@@ -13,10 +12,14 @@ public class Gravitacija {
         double v = sc.nextDouble();
 
         double a = izracun(C, M, r, v);
+=======
+        System.out.println(v);
+        System.out.println(a);
+>>>>>>> izpis
     }
 
-    public static double izracun(double C, double M, double r, double v){
-        return C*M/Math.pow((r+v), 2);
+    public static double izracun(double C, double M, double r, double v) {
+        return C * M / Math.pow((r + v), 2);
     }
 
 }
