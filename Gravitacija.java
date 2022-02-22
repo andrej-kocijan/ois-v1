@@ -12,10 +12,8 @@ public class Gravitacija {
 
         double a = izracun(C, M, r, v);
 
-        System.out.println(v);
         System.out.println(a);
 
-        System.out.println("OIS je zakon!");
     }
 
     public static double izracun(double C, double M, double r, double v) {
