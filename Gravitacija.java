@@ -12,7 +12,7 @@ public class Gravitacija {
 
         double v = sc.nextDouble();
 
-        double rezultat = izracun(C, M, r, v);
+        double a = izracun(C, M, r, v);
     }
 
     public static double izracun(double C, double M, double r, double v){
